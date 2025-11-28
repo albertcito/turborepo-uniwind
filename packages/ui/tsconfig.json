@@ -1,0 +1,12 @@
+{
+  "extends": "@tsconfig/recommended/tsconfig.json",
+  "include": ["*.ts", "src"],
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "@repo/ui/*": ["src/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
