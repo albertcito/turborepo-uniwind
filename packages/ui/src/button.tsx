@@ -7,8 +7,9 @@ export const Button = () => {
     <Pressable
       className="bg-blue-500 p-4 rounded-md active:bg-blue-600 hover:bg-blue-700"
       onPress={() => console.log('Button pressed')}
+      accessibilityRole="button"
     >
-      <Text className="text-white">
+      <Text accessibilityRole="text" className="text-white">
         Uniwind Button
       </Text>
     </Pressable>
